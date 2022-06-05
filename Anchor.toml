@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.localnet]
-mlh_hackathon_backend = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+mlh_hackathon_backend = "47AtRpqxPBNYhs82nqsR58oMUJrvtkPRKf6nBdfuvkri"
 
 [registry]
 url = "https://anchor.projectserum.com"

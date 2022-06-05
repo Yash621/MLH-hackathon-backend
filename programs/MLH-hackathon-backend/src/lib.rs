@@ -1,14 +1,14 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("47AtRpqxPBNYhs82nqsR58oMUJrvtkPRKf6nBdfuvkri");
 
 #[program]
 mod basic_1 {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>, data: u64) -> Result<()> {
+    pub fn initialize(ctx: Context<Initialize>,data: u64) -> Result<()> {
         let my_account = &mut ctx.accounts.my_account;
-        my_account.data = data;
+        my_account.data += 5;
         Ok(())
     }
 
